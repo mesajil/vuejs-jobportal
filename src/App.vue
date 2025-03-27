@@ -1,7 +1,13 @@
-<script setup></script>
+<script setup>
+import Navbar from '@/components/Navbar.vue'
+import Hero from '@/components/Hero.vue'
+import HeroCards from './components/HeroCards.vue'
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <Navbar />
+  <Hero title="Become a Vue Dev" subtitle="Find the Vue job that fits your skills and needs"></Hero>
+  <HeroCards />
 </template>
 
 <style scoped></style>
