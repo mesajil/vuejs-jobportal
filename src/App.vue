@@ -9,7 +9,7 @@ import JobListings from './components/JobListings.vue'
   <Navbar />
   <Hero title="Become a Vue Dev" subtitle="Find the Vue job that fits your skills and needs"></Hero>
   <HeroCards />
-  <JobListings />
+  <JobListings :show-button="true" />
 </template>
 
 <style scoped></style>
