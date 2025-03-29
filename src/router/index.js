@@ -1,6 +1,8 @@
+import AddJob from '@/views/AddJob.vue'
 import Home from '@/views/Home.vue'
 import JobDetails from '@/views/JobDetails.vue'
 import Jobs from '@/views/Jobs.vue'
+import NotFound from '@/views/NotFound.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
@@ -19,6 +21,16 @@ const routes = [
     name: 'JobDetails',
     component: JobDetails,
     props: true,
+  },
+  {
+    path: '/jobs/add',
+    name: 'AddJob',
+    component: AddJob,
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: NotFound,
   },
 ]
 
