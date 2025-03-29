@@ -19,12 +19,12 @@
         <i class="pi pi-map-marker text-orange-700 mr-1"></i>
         {{ job.location }}
       </p>
-      <a
-        :href="`/job/${job.id}`"
+      <RouterLink
+        :to="`/job/${job.id}`"
         class="mt-4 lg:mt-0 bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
       >
         Read More
-      </a>
+      </RouterLink>
     </div>
   </div>
 </template>
