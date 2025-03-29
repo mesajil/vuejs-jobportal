@@ -2,6 +2,8 @@
   <div class="bg-white shadow-md rounded-lg p-6 border border-gray-200">
     <p class="text-sm text-green-600 font-semibold">{{ job.type }}</p>
     <h2 class="text-xl font-bold text-gray-800 mt-2">{{ job.title }}</h2>
+
+    <!-- Job Description with More/Less button -->
     <p class="text-gray-600 mt-2">{{ getJobDescription }}</p>
     <button
       v-if="!jobDescLengthOk"
@@ -10,10 +12,11 @@
     >
       {{ !showText ? 'More' : 'Less' }}
     </button>
+
     <p class="text-green-600 font-semibold mt-4">{{ job.salary }} / Year</p>
     <div class="flex flex-col lg:flex-row justify-between items-center mt-4">
       <p class="text-gray-500 flex items-center">
-        <span class="material-icons text-red-500 mr-1">place</span>
+        <i class="pi pi-map-marker text-orange-700 mr-1"></i>
         {{ job.location }}
       </p>
       <a
