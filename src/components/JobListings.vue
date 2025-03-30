@@ -18,8 +18,8 @@
 </template>
 
 <script setup>
-import jobData from '@/jobs.json'
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
 import JobListing from './JobListing.vue'
 
 defineProps({
@@ -33,5 +33,15 @@ defineProps({
   },
 })
 
-const jobs = ref(jobData)
+const jobs = ref([])
+
+// Fetch jobs from the API on component mount
+onMounted(async () => {
+  try {
+    const response = await axios.get('http://localhost:8000/jobs')
+    jobs.value = response.data
+  } catch (error) {
+    console.error('Error fetching jobs:', error)
+  }
+})
 </script>
