@@ -8,28 +8,28 @@ import { createRouter, createWebHistory } from 'vue-router'
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home,
   },
   {
     path: '/jobs',
-    name: 'Jobs',
+    name: 'jobs',
     component: Jobs,
   },
   {
     path: '/job/:id',
-    name: 'JobDetails',
+    name: 'job-details',
     component: JobDetails,
     props: true,
   },
   {
     path: '/jobs/add',
-    name: 'AddJob',
+    name: 'add-job',
     component: AddJob,
   },
   {
     path: '/:pathMatch(.*)*',
-    name: 'NotFound',
+    name: 'not-found',
     component: NotFound,
   },
 ]
