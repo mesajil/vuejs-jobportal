@@ -3,9 +3,12 @@
     <h1 class="text-3xl font-bold mb-6">Browse Jobs</h1>
 
     <!-- Spinner -->
+    <div v-if="state.isLoading" class="text-center text-gray-500 py-6">
+      <PulseLoader />
+    </div>
 
     <!-- Job Listings -->
-    <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    <div v-else class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
       <JobListing v-for="job in state.jobs.slice(0, limit)" :key="job.id" :job="job" />
     </div>
   </div>
@@ -25,6 +28,7 @@
 import axios from 'axios'
 import { onMounted, reactive } from 'vue'
 import JobListing from './JobListing.vue'
+import PulseLoader from 'vue-spinner/src/PulseLoader.vue'
 
 defineProps({
   showButton: {
