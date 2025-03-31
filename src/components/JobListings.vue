@@ -1,8 +1,12 @@
 <template>
   <div class="p-6 bg-gray-100 min-h-screen">
     <h1 class="text-3xl font-bold mb-6">Browse Jobs</h1>
-    <div class="grid gap-6">
-      <JobListing v-for="job in jobs.slice(0, limit)" :key="job.id" :job="job" />
+
+    <!-- Spinner -->
+
+    <!-- Job Listings -->
+    <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <JobListing v-for="job in state.jobs.slice(0, limit)" :key="job.id" :job="job" />
     </div>
   </div>
 
@@ -18,8 +22,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
 import axios from 'axios'
+import { onMounted, reactive } from 'vue'
 import JobListing from './JobListing.vue'
 
 defineProps({
@@ -33,15 +37,20 @@ defineProps({
   },
 })
 
-const jobs = ref([])
+const state = reactive({
+  jobs: [],
+  isLoading: true,
+})
 
 // Fetch jobs from the API on component mount
 onMounted(async () => {
   try {
     const response = await axios.get('http://localhost:8000/jobs')
-    jobs.value = response.data
+    state.jobs = response.data
   } catch (error) {
     console.error('Error fetching jobs:', error)
+  } finally {
+    state.isLoading = false
   }
 })
 </script>
