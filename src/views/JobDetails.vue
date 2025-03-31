@@ -10,7 +10,9 @@
         <div class="bg-white shadow-md rounded-lg p-6">
           <p class="text-sm text-green-600 font-semibold">{{ state.job.type }}</p>
           <h1 class="text-3xl font-bold text-gray-800 mt-2">{{ state.job.title }}</h1>
-          <p class="text-lg text-red-600 mt-2">{{ state.job.location }}</p>
+          <p class="text-lg text-red-600 mt-2">
+            <i class="pi pi-map-marker mr-1"></i> {{ state.job.location }}
+          </p>
         </div>
 
         <!-- Company Info -->

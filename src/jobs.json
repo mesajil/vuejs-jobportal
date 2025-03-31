@@ -1,7 +1,7 @@
 {
   "jobs": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Senior Vue Developer",
       "type": "Full-Time",
       "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
@@ -15,7 +15,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Front-End Engineer (Vue)",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
@@ -29,7 +29,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Vue.js Developer",
       "type": "Full-Time",
       "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Vue Front-End Developer",
       "type": "Part-Time",
       "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
@@ -57,7 +57,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Full Stack Vue Developer",
       "type": "Full-Time",
       "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
@@ -71,7 +71,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Vue Native Developer",
       "type": "Full-Time",
       "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
@@ -82,6 +82,300 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "d5d2",
+      "type": "Part-Time",
+      "title": "Hey !!",
+      "description": "A job description",
+      "salary": "10,000 SOLES",
+      "location": "PERU",
+      "company": {
+        "name": "",
+        "description": "SPHERE",
+        "contactEmail": "lhmesajil@gmail.com",
+        "contactPhone": "940709267"
+      }
+    },
+    {
+      "id": "02a5",
+      "type": "Contract",
+      "title": "Vue JS DEV",
+      "description": "DEV",
+      "salary": "",
+      "location": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "28cb",
+      "type": "Full-Time",
+      "title": "",
+      "description": "",
+      "salary": "",
+      "location": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "4e4f",
+      "type": "Full-Time",
+      "title": "EYE",
+      "description": "",
+      "salary": "$125K - $150K",
+      "location": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": "999ss"
+      }
+    },
+    {
+      "id": "9dc0",
+      "type": "Full-Time",
+      "title": "Basic Job",
+      "description": "",
+      "salary": "Under $50K",
+      "location": "",
+      "company": {
+        "name": "",
+        "description": "",
+        "contactEmail": "",
+        "contactPhone": ""
+      }
+    },
+    {
+      "id": "722a",
+      "type": "Remote",
+      "title": "Veniam magnam eaque",
+      "description": "Sunt occaecat et qui",
+      "salary": "$50K - $60K",
+      "location": "Laudantium hic natu",
+      "company": {
+        "name": "Parks Harper Co",
+        "description": "Soluta veniam volup",
+        "contactEmail": "horokyh@mailinator.com",
+        "contactPhone": "+1 (254) 409-3736"
+      }
+    },
+    {
+      "id": "8277",
+      "type": "Remote",
+      "title": "Quis dolorum et expe",
+      "description": "Enim soluta qui esse",
+      "salary": "$175K - $200K",
+      "location": "Facere repudiandae r",
+      "company": {
+        "name": "Sykes Scott LLC",
+        "description": "Commodi adipisci eni",
+        "contactEmail": "viqy@mailinator.com",
+        "contactPhone": "+1 (358) 659-7513"
+      }
+    },
+    {
+      "id": "ac76",
+      "type": "Internship",
+      "title": "Qui assumenda offici",
+      "description": "Amet non praesentiu",
+      "salary": "$60K - $70K",
+      "location": "Autem id ut libero i",
+      "company": {
+        "name": "Barton and Blanchard LLC",
+        "description": "Laborum magna ut a m",
+        "contactEmail": "zimoxyqege@mailinator.com",
+        "contactPhone": "+1 (975) 499-6234"
+      }
+    },
+    {
+      "id": "68ff",
+      "type": "Part-Time",
+      "title": "Nostrud mollitia mol",
+      "description": "Voluptates eaque rat",
+      "salary": "Over $200K",
+      "location": "Sunt rerum sit solu",
+      "company": {
+        "name": "Rodriquez and Whitfield Associates",
+        "description": "Voluptatem repellend",
+        "contactEmail": "lasekaval@mailinator.com",
+        "contactPhone": "+1 (856) 824-6934"
+      }
+    },
+    {
+      "id": "b7b0",
+      "type": "Part-Time",
+      "title": "Eu nulla nihil aut n",
+      "description": "Quas libero vitae ve",
+      "salary": "$50K - $60K",
+      "location": "Facere est dolor duc",
+      "company": {
+        "name": "Sweeney Sheppard Plc",
+        "description": "Et nostrud quibusdam",
+        "contactEmail": "gomygun@mailinator.com",
+        "contactPhone": "+1 (269) 758-6825"
+      }
+    },
+    {
+      "id": "d905",
+      "type": "Full-Time",
+      "title": "Cupidatat mollit vol",
+      "description": "Numquam harum Nam et",
+      "salary": "$80K - $90K",
+      "location": "Id modi aut quae bl",
+      "company": {
+        "name": "Abbott and Workman LLC",
+        "description": "Vero distinctio Qui",
+        "contactEmail": "mejobarocu@mailinator.com",
+        "contactPhone": "+1 (813) 375-3102"
+      }
+    },
+    {
+      "id": "3a44",
+      "type": "Internship",
+      "title": "In placeat proident",
+      "description": "Incididunt reiciendi",
+      "salary": "$150K - $175K",
+      "location": "Blanditiis et quis r",
+      "company": {
+        "name": "Britt Newton Associates",
+        "description": "Sit qui tempore ex ",
+        "contactEmail": "dahil@mailinator.com",
+        "contactPhone": "+1 (217) 767-3032"
+      }
+    },
+    {
+      "id": "d183",
+      "type": "Internship",
+      "title": "Voluptas tempore se",
+      "description": "Modi delectus maxim",
+      "salary": "$175K - $200K",
+      "location": "Quo consectetur quas",
+      "company": {
+        "name": "Hunter and Huber Co",
+        "description": "Minim minima unde il",
+        "contactEmail": "caqe@mailinator.com",
+        "contactPhone": "+1 (951) 473-9515"
+      }
+    },
+    {
+      "id": "e63e",
+      "type": "Remote",
+      "title": "Aut velit id consequ",
+      "description": "Quos et occaecat vol",
+      "salary": "$125K - $150K",
+      "location": "Qui ut voluptas et m",
+      "company": {
+        "name": "Robles and Richardson LLC",
+        "description": "Officiis delectus e",
+        "contactEmail": "kyryquqiz@mailinator.com",
+        "contactPhone": "+1 (497) 533-4125"
+      }
+    },
+    {
+      "id": "82fc",
+      "type": "Full-Time",
+      "title": "Aliquam soluta bland",
+      "description": "Qui rerum irure itaq",
+      "salary": "Over $200K",
+      "location": "Et inventore quas vo",
+      "company": {
+        "name": "Vaughan Brock Trading",
+        "description": "Nulla omnis obcaecat",
+        "contactEmail": "nihekori@mailinator.com",
+        "contactPhone": "+1 (376) 754-9912"
+      }
+    },
+    {
+      "id": "4f0f",
+      "type": "Full-Time",
+      "title": "Numquam cupiditate p",
+      "description": "Est quisquam quasi ",
+      "salary": "$80K - $90K",
+      "location": "Sunt et numquam labo",
+      "company": {
+        "name": "Warner Maynard LLC",
+        "description": "Id voluptatem Disti",
+        "contactEmail": "ripiju@mailinator.com",
+        "contactPhone": "+1 (455) 194-3146"
+      }
+    },
+    {
+      "id": "00dc",
+      "type": "Internship",
+      "title": "Qui ea ea ullam rati",
+      "description": "Architecto amet vol",
+      "salary": "$90K - $100K",
+      "location": "At laudantium cillu",
+      "company": {
+        "name": "Coffey and Kirby Co",
+        "description": "Rerum esse ex asper",
+        "contactEmail": "rinagojuby@mailinator.com",
+        "contactPhone": "+1 (987) 566-8238"
+      }
+    },
+    {
+      "id": "d660",
+      "type": "Remote",
+      "title": "Illum tempor natus ",
+      "description": "Culpa unde dolores ",
+      "salary": "$50K - $60K",
+      "location": "Necessitatibus neque",
+      "company": {
+        "name": "Ward and Sims Associates",
+        "description": "Similique dolor aliq",
+        "contactEmail": "vizyluri@mailinator.com",
+        "contactPhone": "+1 (908) 125-4374"
+      }
+    },
+    {
+      "id": "1693",
+      "type": "Contract",
+      "title": "Est officia vel rem ",
+      "description": "Vitae ea vel labore ",
+      "salary": "$125K - $150K",
+      "location": "Qui ratione quis ea ",
+      "company": {
+        "name": "Mercado and Wright Associates",
+        "description": "Aperiam laboriosam ",
+        "contactEmail": "getuzix@mailinator.com",
+        "contactPhone": "+1 (468) 293-7605"
+      }
+    },
+    {
+      "id": "7fda",
+      "type": "Part-Time",
+      "title": "Ducimus et cum aut ",
+      "description": "Est possimus perfer",
+      "salary": "$50K - $60K",
+      "location": "Consequatur velit in",
+      "company": {
+        "name": "Levine Hardin LLC",
+        "description": "In voluptatem rerum",
+        "contactEmail": "pexoryjapu@mailinator.com",
+        "contactPhone": "+1 (906) 703-9739"
+      }
+    },
+    {
+      "id": "f3a8",
+      "type": "Full-Time",
+      "title": "Ab laudantium molli",
+      "description": "Dolore at quibusdam ",
+      "salary": "$50K - $60K",
+      "location": "Id alias qui et non",
+      "company": {
+        "name": "Mcdonald and Sexton Plc",
+        "description": "Quibusdam vel do sit",
+        "contactEmail": "finet@mailinator.com",
+        "contactPhone": "+1 (989) 383-8731"
       }
     }
   ]

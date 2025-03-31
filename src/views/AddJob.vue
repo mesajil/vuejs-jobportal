@@ -16,6 +16,8 @@
           <option value="Full-Time">Full-Time</option>
           <option value="Part-Time">Part-Time</option>
           <option value="Contract">Contract</option>
+          <option value="Remote">Remote</option>
+          <option value="Internship">Internship</option>
         </select>
       </div>
 
@@ -28,6 +30,7 @@
           v-model="form.title"
           class="w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-green-500"
           placeholder="Enter job title"
+          required
         />
       </div>
 
@@ -45,13 +48,23 @@
       <!-- Salary -->
       <div>
         <label for="salary" class="block text-gray-700 font-bold mb-2">Salary</label>
-        <input
+        <select
           id="salary"
-          type="text"
           v-model="form.salary"
           class="w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-green-500"
-          placeholder="Enter salary range"
-        />
+        >
+          <option value="Under $50K">Under $50K</option>
+          <option value="$50K - $60K">$50K - $60K</option>
+          <option value="$60K - $70K">$60K - $70K</option>
+          <option value="$70K - $80K">$70K - $80K</option>
+          <option value="$80K - $90K">$80K - $90K</option>
+          <option value="$90K - $100K">$90K - $100K</option>
+          <option value="$100K - $125K">$100K - $125K</option>
+          <option value="$125K - $150K">$125K - $150K</option>
+          <option value="$150K - $175K">$150K - $175K</option>
+          <option value="$175K - $200K">$175K - $200K</option>
+          <option value="Over $200K">Over $200K</option>
+        </select>
       </div>
 
       <!-- Location -->
@@ -102,7 +115,7 @@
         <label for="contact-phone" class="block text-gray-700 font-bold mb-2">Contact Phone</label>
         <input
           id="contact-phone"
-          type="text"
+          type="tel"
           v-model="form.company.contactPhone"
           class="w-full border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-green-500"
           placeholder="Enter contact phone"
@@ -123,14 +136,16 @@
 </template>
 
 <script setup>
+import router from '@/router'
 import { reactive } from 'vue'
 import axios from 'axios'
+import { useToast } from 'vue-toastification'
 
 const form = reactive({
   type: 'Full-Time',
   title: '',
   description: '',
-  salary: '',
+  salary: 'Under $50K',
   location: '',
   company: {
     name: '',
@@ -140,14 +155,16 @@ const form = reactive({
   },
 })
 
+const toast = useToast()
+
 const submitForm = async () => {
   try {
     const response = await axios.post('/api/jobs', form)
-    console.log('Job added successfully:', response.data)
-    alert('Job added successfully!')
+    toast.success('Job Added Successfully')
+    router.push(`/job/${response.data.id}`)
   } catch (error) {
     console.error('Error adding job:', error)
-    alert('Failed to add job.')
+    toast.error('Job Was Not Added')
   }
 }
 </script>
