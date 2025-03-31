@@ -155,18 +155,18 @@
       }
     },
     {
-      "id": "b7b0",
-      "type": "Part-Time",
-      "title": "Eu nulla nihil aut n",
-      "description": "Quas libero vitae ve",
-      "salary": "$50K - $60K",
+      "type": "Contract",
+      "title": "Eu nulla nihil",
+      "description": "Quas libero vitae",
+      "salary": "$175K - $200K",
       "location": "Facere est dolor duc",
       "company": {
         "name": "Sweeney Sheppard Plc",
-        "description": "Et nostrud quibusdam",
+        "description": "Et nostrud quibusdam Et ",
         "contactEmail": "gomygun@mailinator.com",
         "contactPhone": "+1 (269) 758-6825"
-      }
+      },
+      "id": "b7b0"
     },
     {
       "id": "d905",
@@ -281,18 +281,18 @@
       }
     },
     {
-      "id": "1693",
       "type": "Contract",
-      "title": "Est officia vel rem ",
-      "description": "Vitae ea vel labore ",
-      "salary": "$125K - $150K",
-      "location": "Qui ratione quis ea ",
+      "title": "VueJS official vel rem ",
+      "description": "Vitae ea vel labores.",
+      "salary": "Over $200K",
+      "location": "Qui rationes quisea",
       "company": {
         "name": "Mercado and Wright Associates",
         "description": "Aperiam laboriosam ",
         "contactEmail": "getuzix@mailinator.com",
         "contactPhone": "+1 (468) 293-7605"
-      }
+      },
+      "id": "1693"
     }
   ]
 }

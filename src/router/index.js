@@ -1,4 +1,5 @@
 import AddJob from '@/views/AddJob.vue'
+import EditJob from '@/views/EditJob.vue'
 import Home from '@/views/Home.vue'
 import JobDetails from '@/views/JobDetails.vue'
 import Jobs from '@/views/Jobs.vue'
@@ -26,6 +27,12 @@ const routes = [
     path: '/jobs/add',
     name: 'add-job',
     component: AddJob,
+  },
+  {
+    path: '/jobs/edit/:id',
+    name: 'edit-job',
+    component: EditJob,
+    props: true,
   },
   {
     path: '/:pathMatch(.*)*',
