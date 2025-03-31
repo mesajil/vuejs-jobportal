@@ -99,62 +99,6 @@
       }
     },
     {
-      "id": "02a5",
-      "type": "Contract",
-      "title": "Vue JS DEV",
-      "description": "DEV",
-      "salary": "",
-      "location": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "28cb",
-      "type": "Full-Time",
-      "title": "",
-      "description": "",
-      "salary": "",
-      "location": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
-      "id": "4e4f",
-      "type": "Full-Time",
-      "title": "EYE",
-      "description": "",
-      "salary": "$125K - $150K",
-      "location": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": "999ss"
-      }
-    },
-    {
-      "id": "9dc0",
-      "type": "Full-Time",
-      "title": "Basic Job",
-      "description": "",
-      "salary": "Under $50K",
-      "location": "",
-      "company": {
-        "name": "",
-        "description": "",
-        "contactEmail": "",
-        "contactPhone": ""
-      }
-    },
-    {
       "id": "722a",
       "type": "Remote",
       "title": "Veniam magnam eaque",
@@ -348,34 +292,6 @@
         "description": "Aperiam laboriosam ",
         "contactEmail": "getuzix@mailinator.com",
         "contactPhone": "+1 (468) 293-7605"
-      }
-    },
-    {
-      "id": "7fda",
-      "type": "Part-Time",
-      "title": "Ducimus et cum aut ",
-      "description": "Est possimus perfer",
-      "salary": "$50K - $60K",
-      "location": "Consequatur velit in",
-      "company": {
-        "name": "Levine Hardin LLC",
-        "description": "In voluptatem rerum",
-        "contactEmail": "pexoryjapu@mailinator.com",
-        "contactPhone": "+1 (906) 703-9739"
-      }
-    },
-    {
-      "id": "f3a8",
-      "type": "Full-Time",
-      "title": "Ab laudantium molli",
-      "description": "Dolore at quibusdam ",
-      "salary": "$50K - $60K",
-      "location": "Id alias qui et non",
-      "company": {
-        "name": "Mcdonald and Sexton Plc",
-        "description": "Quibusdam vel do sit",
-        "contactEmail": "finet@mailinator.com",
-        "contactPhone": "+1 (989) 383-8731"
       }
     }
   ]
